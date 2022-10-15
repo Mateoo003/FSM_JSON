@@ -1,47 +1,54 @@
-[
-    {
+{
+    "parameters":[
+        {
 
-        "status_0":
-        [
-            {
-                "input":"0",
-                "output":"0",
-                "next_status":"0"
-            },
-            {
-                "input":"1",
-                "output":"1",
-                "next_status":"1"
-            }
-        ],
+            "status_0":
+            [
+                {
+                    "input":"0",
+                    "output":"0",
+                    "next_status":"0"
+                },
+                {
+                    "input":"1",
+                    "output":"1",
+                    "next_status":"1"
+                }
+            ],
 
-        "status_1":
-        [
-            {
-                "input":"1",
-                "output":"0",
-                "next_status":"2"
-            },
-            {
-                "input":"0",
-                "output":"1",
-                "next_status":"0"
-            }
-        ],
+            "status_1":
+            [
+                {
+                    "input":"1",
+                    "output":"0",
+                    "next_status":"2"
+                },
+                {
+                    "input":"0",
+                    "output":"1",
+                    "next_status":"0"
+                }
+            ],
 
-        "status_2":
-        [
-            {
-                "input":"1",
-                "output":"1",
-                "next_status":"2"
-            },
-            {
-                "input":"0",
-                "output":"0",
-                "next_status":"1"
-            }
-        ]
+            "status_2":
+            [
+                {
+                    "input":"1",
+                    "output":"1",
+                    "next_status":"2"
+                },
+                {
+                    "input":"0",
+                    "output":"0",
+                    "next_status":"1"
+                }
+            ]
 
+        }
+    ],
+
+    "data_test":{
+        "input":"10111010110001",
+        "output":"1000110000101011"
     }
-]
+}
