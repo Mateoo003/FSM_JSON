@@ -1,67 +1,47 @@
 [
-
     {
 
-        "current_state" : "0",
-        "input" : "0",
-        "output" : "0", 
-        "next_state" : "0"
-    
-    },
+        "status_0":
+        [
+            {
+                "input":"0",
+                "output":"0",
+                "next_status":"0"
+            },
+            {
+                "input":"1",
+                "output":"1",
+                "next_status":"1"
+            }
+        ],
 
-    {
+        "status_1":
+        [
+            {
+                "input":"1",
+                "output":"0",
+                "next_status":"2"
+            },
+            {
+                "input":"0",
+                "output":"1",
+                "next_status":"0"
+            }
+        ],
 
-        "current_state" : "0",
-        "input" : "1",
-        "output" : "1", 
-        "next_state" : "1"
-
-    },
-
-    {
-
-        "current_state" : "0",
-        "input" : "1",
-        "output" : "1", 
-        "next_state" : "1"
-
-    },
-
-    {
-
-        "current_state" : "1",
-        "input" : "1",
-        "output" : "0", 
-        "next_state" : "2"
-
-    },
-
-    {
-
-        "current_state" : "2",
-        "input" : "1",
-        "output" : "1", 
-        "next_state" : "2"
-
-    },
-
-    {
-
-        "current_state" : "2",
-        "input" : "0",
-        "output" : "0", 
-        "next_state" : "1"
-
-    },
-
-    {
-
-        "current_state" : "1",
-        "input" : "0",
-        "output" : "1", 
-        "next_state" : "0"
+        "status_2":
+        [
+            {
+                "input":"1",
+                "output":"1",
+                "next_status":"2"
+            },
+            {
+                "input":"0",
+                "output":"0",
+                "next_status":"1"
+            }
+        ]
 
     }
-
 ]
-
