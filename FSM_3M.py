@@ -1,6 +1,7 @@
 from read import archive
 
 parameters_FSM = archive["parameters"][0]
+inputs = archive["data_test"]["input"]
 
 def FSM_3M(state,input):
     if parameters_FSM["status_"+ str(state)]:
@@ -11,7 +12,6 @@ def FSM_3M(state,input):
     return state,output
 
 outputs = ""
-inputs = "101110110"
 state = "0"
 
 for input in inputs[::-1]:
