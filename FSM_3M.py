@@ -1,4 +1,4 @@
-def FSM_3M(state, input):
+def FSM_3M(state,input):
     if state == 0:
         if input == 0:
             output = 0
@@ -16,15 +16,16 @@ def FSM_3M(state, input):
     elif state == 2:
         if input == 0:
             output = 0
-            state =1
+            state = 1
         elif input == 1:
             output = 1
             state = 2
-    return state, output
+    return state,output
 
 outputs = ""
 inputs = "101110110"
 state = "0"
+
 for input in inputs[::-1]:
     state, output = FSM_3M(int(state), int(input))
     outputs += str(output)
